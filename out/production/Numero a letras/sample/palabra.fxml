@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Palabra">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="300.0" prefWidth="400.0">
+         <children>
+            <Button fx:id="btn_mostrar" layoutX="32.0" layoutY="198.0" mnemonicParsing="false" onAction="#mostrar" prefHeight="31.0" prefWidth="337.0" text="Click Aquí para MOSTRAR LETRAS" />
+            <TextArea fx:id="numero_en_letras" editable="false" layoutX="32.0" layoutY="97.0" prefHeight="81.0" prefWidth="337.0" />
+            <Label layoutX="142.0" layoutY="56.0" text="CONVIRTIENDO..." />
+            <Label layoutX="112.0" layoutY="243.0" text="CLICK EN LA X PARA SALIR" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
